@@ -1,0 +1,90 @@
+
+html {
+	font-family: sans-serif;
+	background-color: black;
+	height: 100%;
+	width: auto;
+}
+
+body {
+	height: 100%;
+	width: auto;
+}
+
+input {
+	width: 73%;
+	height: 18px;
+	border-radius: 1px;
+	border: 1px solid gray;
+	background-color: #f2e8dc;
+	position: fixed;
+	bottom: 3px;
+	left: 10px;
+}
+
+#addFrame {
+	width: 30%;
+	height: 152px;
+	padding: 0;
+	margin: 1.5%;
+	box-sizing: border-box;
+	background-color: black;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	position: relative;
+	float: left;
+}
+
+iframe {
+	width: 30%;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	padding: 0;
+	margin: 1.5%;
+	position: relative;
+	float: left;
+	overflow: scroll;
+}
+
+#send {
+	width: 22%;
+	position: fixed;
+	bottom: 3px;
+	right: 10px;
+	border-radius: 1px;
+	border-color: transparent;
+	background-color: #4eb9e0;
+}
+
+p {
+	position: relative;
+	color: #f2e8dc;
+	opacity: 1;
+	padding: 1px 2px;
+	margin: 0;
+	top: 2px;
+}
+
+p:last-of-type {
+	padding-bottom: 25px;
+}
+
+:focus {
+	border-color: transparent;
+	-moz-box-shadow: inset 0 1px 1px 0;
+  -webkit-box-shadow: inset 0 1px 1px 0;
+  box-shadow: inset 0 1px 1px 0;
+	outline-style: none; 
+}
+
+@media only screen and (max-width: 768px) {
+
+	iframe, #addFrame {
+		width: 95%;
+		margin: 1% 2.5%;
+	}
+
+}
